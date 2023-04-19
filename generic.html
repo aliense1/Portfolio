@@ -4,8 +4,29 @@
 		<title>About Me</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
+		 <link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			.flex-container {
+			  display: flex;
+				flex-direction: column;
+				justify-content: center;  
+				flex-wrap: wrap;
+				align-items: center;
+			  background-color: rgb(255, 255, 255);
+
+			}
+			
+			.flex-container > div {
+			  background-color: #58f946;
+			  margin:20px;
+			  padding: 20px;
+			  width: 800px;
+              margin: 10px;
+			  font-size: 25px;
+			  text-align: center;
+			}
+			</style>
 	</head>
 	<body class="is-preload">
 
@@ -46,8 +67,15 @@
 									I am born and raised in Kerala.</p>
 								</header>
 								<!-- <div class="image main"><img src="images/pic01.jpg" alt="" /></div> -->
-								<!-- <p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur sapien risus, commodo eget turpis at, elementum convallis enim turpis, lorem ipsum dolor sit amet nullam.</p>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus. Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum.</p> -->
+								<h2>Hobbies</h2>
+
+								<div class="flex-container">
+									<div style="flex-grow: 2"> <a href="https://en.wikipedia.org/wiki/Speedcubing#:~:text=Speedcubing%20(also%20known%20as%20speedsolving,Cube%2C%20as%20quickly%20as%20possible.">Speed Cubing</a></div>
+									<div style="flex-grow: 7"><a href="https://en.wikipedia.org/wiki/Reading">Reading</a></div>
+									<div style="flex-grow: 8"><a href="https://en.wikipedia.org/wiki/Cycling">Cycling</a></div>  
+									<div style="flex-grow: 8"><a href="https://en.wikipedia.org/wiki/Video_game">Gaming</a></div>
+								  </div>
+						
 							</section>
 
 					</div>
